@@ -1,0 +1,66 @@
+****************************************
+	 UNIVERSIDAD POLITÉNICA SALESIANA
+****************************************
+Proceso: conversión de color a gray-scale
+Carpeta: ant
+Tiempo demorado: 0.091176
+-----------------------------------------
+Carpeta: motorbikes
+Tiempo demorado: 0.056744
+-----------------------------------------
+Carpeta: sunflower
+Tiempo demorado: 0.042508
+-----------------------------------------
+Carpeta: watch
+Tiempo demorado: 0.033441
+-----------------------------------------
+****************************************
+Proceso: calculo histogramaCarpeta: ant
+Tiempo demorado: 0.091176
+-----------------------------------------
+Carpeta: motorbikes
+Tiempo demorado: 0.056744
+-----------------------------------------
+Carpeta: sunflower
+Tiempo demorado: 0.042508
+-----------------------------------------
+Carpeta: watch
+Tiempo demorado: 0.033441
+-----------------------------------------
+Realizado por:
+ 		Willam Mendiera 
+		Jorge Pizarro
+****************************************
+****************************************
+	 UNIVERSIDAD POLITÉNICA SALESIANA
+****************************************
+Proceso: conversión de color a gray-scale
+Carpeta: ant
+Tiempo demorado: 0.285121
+-----------------------------------------
+Carpeta: motorbikes
+Tiempo demorado: 2.305918
+-----------------------------------------
+Carpeta: sunflower
+Tiempo demorado: 0.528097
+-----------------------------------------
+Carpeta: watch
+Tiempo demorado: 1.157310
+-----------------------------------------
+****************************************
+Proceso: calculo histogramaCarpeta: ant
+Tiempo demorado: 0.285121
+-----------------------------------------
+Carpeta: motorbikes
+Tiempo demorado: 2.305918
+-----------------------------------------
+Carpeta: sunflower
+Tiempo demorado: 0.528097
+-----------------------------------------
+Carpeta: watch
+Tiempo demorado: 1.157310
+-----------------------------------------
+Realizado por:
+ 		Willam Mendiera 
+		Jorge Pizarro
+****************************************
