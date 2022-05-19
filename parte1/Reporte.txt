@@ -64,3 +64,36 @@ Realizado por:
  		Willam Mendiera 
 		Jorge Pizarro
 ****************************************
+****************************************
+	 UNIVERSIDAD POLITÉNICA SALESIANA
+****************************************
+Proceso: conversión de color a gray-scale
+Carpeta: ant
+Tiempo demorado: 0.273284
+-----------------------------------------
+Carpeta: motorbikes
+Tiempo demorado: 2.216258
+-----------------------------------------
+Carpeta: sunflower
+Tiempo demorado: 0.495104
+-----------------------------------------
+Carpeta: watch
+Tiempo demorado: 1.113017
+-----------------------------------------
+****************************************
+Proceso: calculo histogramaCarpeta: ant
+Tiempo demorado: 0.273284
+-----------------------------------------
+Carpeta: motorbikes
+Tiempo demorado: 2.216258
+-----------------------------------------
+Carpeta: sunflower
+Tiempo demorado: 0.495104
+-----------------------------------------
+Carpeta: watch
+Tiempo demorado: 1.113017
+-----------------------------------------
+Realizado por:
+ 		Willam Mendiera 
+		Jorge Pizarro
+****************************************
