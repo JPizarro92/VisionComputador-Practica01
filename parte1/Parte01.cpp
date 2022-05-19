@@ -130,7 +130,7 @@ int main(){
         t1 = clock();
         double time = (double(t1-t0)/CLOCKS_PER_SEC);
         //cout << time << endl;
-        tiempos[0][i]+=time;
+        tiempos[1][i]+=time;
     }
     
     string reporte;
@@ -148,7 +148,7 @@ int main(){
              "Proceso: calculo histograma";
     for(int i = 0; i<4; i++){
         reporte += "Carpeta: " + nombre_carpetas[i] + "\n" +
-                    "Tiempo demorado: " + to_string(tiempos[0][i]) + "\n"
+                    "Tiempo demorado: " + to_string(tiempos[1][i]) + "\n"
                     "-----------------------------------------\n";
     }
     reporte+="Realizado por:\n \t\tWillam Mendiera \n\t\tJorge Pizarro\n";

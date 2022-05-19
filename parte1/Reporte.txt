@@ -3,29 +3,29 @@
 ****************************************
 Proceso: conversión de color a gray-scale
 Carpeta: ant
-Tiempo demorado: 0.091176
+Tiempo demorado: 0.086106
 -----------------------------------------
 Carpeta: motorbikes
-Tiempo demorado: 0.056744
+Tiempo demorado: 0.913924
 -----------------------------------------
 Carpeta: sunflower
-Tiempo demorado: 0.042508
+Tiempo demorado: 0.181500
 -----------------------------------------
 Carpeta: watch
-Tiempo demorado: 0.033441
+Tiempo demorado: 0.445500
 -----------------------------------------
 ****************************************
 Proceso: calculo histogramaCarpeta: ant
-Tiempo demorado: 0.091176
+Tiempo demorado: 0.205760
 -----------------------------------------
 Carpeta: motorbikes
-Tiempo demorado: 0.056744
+Tiempo demorado: 1.406656
 -----------------------------------------
 Carpeta: sunflower
-Tiempo demorado: 0.042508
+Tiempo demorado: 0.328539
 -----------------------------------------
 Carpeta: watch
-Tiempo demorado: 0.033441
+Tiempo demorado: 0.674145
 -----------------------------------------
 Realizado por:
  		Willam Mendiera 
@@ -36,29 +36,29 @@ Realizado por:
 ****************************************
 Proceso: conversión de color a gray-scale
 Carpeta: ant
-Tiempo demorado: 0.285121
+Tiempo demorado: 0.089877
 -----------------------------------------
 Carpeta: motorbikes
-Tiempo demorado: 2.305918
+Tiempo demorado: 0.919248
 -----------------------------------------
 Carpeta: sunflower
-Tiempo demorado: 0.528097
+Tiempo demorado: 0.173948
 -----------------------------------------
 Carpeta: watch
-Tiempo demorado: 1.157310
+Tiempo demorado: 0.436574
 -----------------------------------------
 ****************************************
 Proceso: calculo histogramaCarpeta: ant
-Tiempo demorado: 0.285121
+Tiempo demorado: 0.222592
 -----------------------------------------
 Carpeta: motorbikes
-Tiempo demorado: 2.305918
+Tiempo demorado: 1.381670
 -----------------------------------------
 Carpeta: sunflower
-Tiempo demorado: 0.528097
+Tiempo demorado: 0.332602
 -----------------------------------------
 Carpeta: watch
-Tiempo demorado: 1.157310
+Tiempo demorado: 0.663825
 -----------------------------------------
 Realizado por:
  		Willam Mendiera 
@@ -69,29 +69,62 @@ Realizado por:
 ****************************************
 Proceso: conversión de color a gray-scale
 Carpeta: ant
-Tiempo demorado: 0.273284
+Tiempo demorado: 0.108628
 -----------------------------------------
 Carpeta: motorbikes
-Tiempo demorado: 2.216258
+Tiempo demorado: 0.910794
 -----------------------------------------
 Carpeta: sunflower
-Tiempo demorado: 0.495104
+Tiempo demorado: 0.170557
 -----------------------------------------
 Carpeta: watch
-Tiempo demorado: 1.113017
+Tiempo demorado: 0.436162
 -----------------------------------------
 ****************************************
 Proceso: calculo histogramaCarpeta: ant
-Tiempo demorado: 0.273284
+Tiempo demorado: 0.189353
 -----------------------------------------
 Carpeta: motorbikes
-Tiempo demorado: 2.216258
+Tiempo demorado: 1.325335
 -----------------------------------------
 Carpeta: sunflower
-Tiempo demorado: 0.495104
+Tiempo demorado: 0.338500
 -----------------------------------------
 Carpeta: watch
-Tiempo demorado: 1.113017
+Tiempo demorado: 0.660979
+-----------------------------------------
+Realizado por:
+ 		Willam Mendiera 
+		Jorge Pizarro
+****************************************
+****************************************
+	 UNIVERSIDAD POLITÉNICA SALESIANA
+****************************************
+Proceso: conversión de color a gray-scale
+Carpeta: ant
+Tiempo demorado: 0.088534
+-----------------------------------------
+Carpeta: motorbikes
+Tiempo demorado: 0.933827
+-----------------------------------------
+Carpeta: sunflower
+Tiempo demorado: 0.168150
+-----------------------------------------
+Carpeta: watch
+Tiempo demorado: 0.448813
+-----------------------------------------
+****************************************
+Proceso: calculo histogramaCarpeta: ant
+Tiempo demorado: 0.196325
+-----------------------------------------
+Carpeta: motorbikes
+Tiempo demorado: 1.484471
+-----------------------------------------
+Carpeta: sunflower
+Tiempo demorado: 0.378726
+-----------------------------------------
+Carpeta: watch
+Tiempo demorado: 0.717950
 -----------------------------------------
 Realizado por:
  		Willam Mendiera 

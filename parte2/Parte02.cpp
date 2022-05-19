@@ -21,7 +21,7 @@ using namespace std;
 using namespace cv; // Espacio de nombres de OpenCV para llamar a los métodos de forma más directa
 
 string carpetas[4] = {"./img/ant/","./img/motorbikes/", "./img/sunflower/", "./img/watch/"};
-string carpetas_gray[4] = {"./img/gray_ant/","./img/gray_motorbikes/", "./img/gray_sunflower/", "./img/gray_watch/"};
+//string carpetas_gray[4] = {"./img/gray_ant/","./img/gray_motorbikes/", "./img/gray_sunflower/", "./img/gray_watch/"};
 string nombre_carpetas[4] = {"ant","motorbikes", "sunflower", "watch"};
 double tiempos[2][4] = {(0,0,0,0),(0,0,0,0)};
 
@@ -59,7 +59,7 @@ void dibujarHistograma(int histo[], int size, Scalar color, string nombre){
     for(int i=0;i<256;i++){
         line(histo_img, Point(i*3,alto), Point(i*3, alto-escala*histo[i]), color, 2);
     }
-    imwrite("./img/histogramas/"+nombre + ".png",histo_img);
+    //imwrite("./img/histogramas/"+nombre + ".png",histo_img);
     imshow(nombre, histo_img);
 }
 
