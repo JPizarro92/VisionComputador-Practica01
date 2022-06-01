@@ -28,18 +28,16 @@ vector<string> espacios = {"COLOR_BGR2GRAY", "COLOR_BGR2HSV", "COLOR_BGR2Lab", "
 Mat frame;
 Mat nuevoEspacio;
 
-void eventoTrack(int v, void *data){
-    
-    //imshow(espacios.at(thres), nuevoEspacio);
+void eventoTrack(int v, void *data){}
+
+void eventoRaton(int e, int x, int y, int b, void *data){
+    //cout << "x: " << x << " y: " << y << endl;
+    if(b==33){
+        imwrite("./"+espacios.at(thres)+".png",nuevoEspacio);
+    }
 }
 
-
-
 int main(){
-    
-    
-    
-
     VideoCapture video("/dev/video0");
     //VideoCapture video("Italia.mp4");
     if(video.isOpened()){
@@ -54,7 +52,7 @@ int main(){
             resize(frame, frame, Size(), 1.2, 1.2);
             flip(frame, frame, 1);//Utilizado para invertir la imagen
             createTrackbar("Espacio", "Video", &thres, 3, eventoTrack, NULL);
-
+            setMouseCallback("Cambio",eventoRaton,NULL);
             /*if(nuevoEspacio.empty()){
                 nuevoEspacio = frame.clone();
             }*/
