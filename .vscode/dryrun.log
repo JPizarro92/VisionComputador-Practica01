@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/jpizarro/GitHub/VisionComputador-Practica01'
+g++ ./parte1/Parte01.cpp -o ./parte1/vision.bin -I//home/computacion/opencv/opencvi/include/opencv4 -L/home/computacion/opencv/opencvi/lib -lopencv_core -lopencv_highgui -lopencv_imgproc -lopencv_imgcodecs -lopencv_video -lopencv_videoio
+make: Leaving directory '/home/jpizarro/GitHub/VisionComputador-Practica01'
+ 
