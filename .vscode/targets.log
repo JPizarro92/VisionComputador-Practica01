@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Jun  1 14:21:51 2022
+# Make data base, printed on Wed Jun  1 17:51:01 2022
 
 # Variables
 
@@ -23,7 +23,7 @@ SSH_AGENT_LAUNCHER = gnome-keyring
 # environment
 GJS_DEBUG_OUTPUT = stderr
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-34ae762d-978d-44e6-b5b0-caace73c7147.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-9307b632-4a27-4adf-b30d-6e7769c99bd1.sock
 # environment
 VSCODE_CWD = /home/jpizarro
 # environment
@@ -97,7 +97,7 @@ CONDA_SHLVL = 1
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 2723
+VSCODE_PID = 7794
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
@@ -105,7 +105,7 @@ XDG_SESSION_TYPE = x11
 # environment
 CONDA_PYTHON_EXE = /home/jpizarro/anaconda3/bin/python
 # environment
-SESSION_MANAGER = local/jhorjho:@/tmp/.ICE-unix/2081,unix/jhorjho:/tmp/.ICE-unix/2081
+SESSION_MANAGER = local/jhorjho:@/tmp/.ICE-unix/2304,unix/jhorjho:/tmp/.ICE-unix/2304
 # automatic
 *F = $(notdir $*)
 # environment
@@ -143,7 +143,7 @@ MAKEFILES :=
 # automatic
 ^F = $(notdir $^)
 # environment
-INVOCATION_ID = 17b1e14f8e0d4b15b9bcef7ae7f7f8ce
+INVOCATION_ID = 39c0697919384b32851e0034af6d55c9
 # environment
 VSCODE_LOG_NATIVE = false
 # environment
@@ -175,7 +175,7 @@ GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
 # makefile
 .DEFAULT_GOAL := all1
 # environment
-SYSTEMD_EXEC_PID = 2103
+SYSTEMD_EXEC_PID = 2329
 # environment
 DISPLAY = :1
 # environment
@@ -185,9 +185,9 @@ GTK_MODULES = gail:atk-bridge:appmenu-gtk-module
 # default
 MAKE_VERSION := 4.3
 # environment
-MANAGERPID = 1877
+MANAGERPID = 2140
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 2723
+GIO_LAUNCHED_DESKTOP_FILE_PID = 7794
 # environment
 _ = /usr/share/code/code
 # environment
@@ -197,7 +197,7 @@ GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
 _CE_M = 
 # environment
-JOURNAL_STREAM = 8:36630
+JOURNAL_STREAM = 8:37725
 # environment
 XDG_SESSION_CLASS = user
 # environment
@@ -322,6 +322,6 @@ all1:
 # strcache performance: lookups = 31 / hit rate = 32%
 # hash-table stats:
 # Load=21/8192=0%, Rehash=0, Collisions=0/31=0%
-# Finished Make data base on Wed Jun  1 14:21:51 2022
+# Finished Make data base on Wed Jun  1 17:51:01 2022
 
  

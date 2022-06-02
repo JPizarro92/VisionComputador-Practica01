@@ -62,35 +62,27 @@ void ordenarAleatoriamente(vector<string>& arreglo){
     shuffle(arreglo.begin(), arreglo.end(),rng);
 }
 
-void cargarImagenes(vector<Imagen>& train, vector<Imagen>& test, vector<string> dir){
+void cargarImagenes(vector<Imagen>& train, vector<Imagen>& test, 
+                    vector<string> dir){
     int limit =(int)(dir.size()*0.8);
-    //cout << "Limite:" << limit << endl;
-    
     for(int i = 0; i < dir.size() ; i++){
         Imagen imagen;
         imagen.nombre=dir[i];
-
         Mat img = imread(dir[i]);
-        
         resize(img, img, Size(ancho, alto), INTER_LINEAR);
         imagen.imagenColor=img;
-        
         vector<Mat> bgr_canales;
         split( img, bgr_canales );
-
         imagen.b=bgr_canales[0];
         imagen.g=bgr_canales[1];
         imagen.r=bgr_canales[2];
-
         cvtColor(img,img,COLOR_BGR2GRAY);
         imagen.imagenGray=img;
-
         if(i < limit){
             train.push_back(imagen);
         }else{
             test.push_back(imagen);
         }
-
     }
 }
 
@@ -231,7 +223,6 @@ int main(){
     vector<string> dirMotorBikes = globVector(carpetas[1]);
     vector<string> dirSunFlower = globVector(carpetas[2]);
     vector<string> dirWacth = globVector(carpetas[3]);
-
     ordenarAleatoriamente(dirAnt);
     ordenarAleatoriamente(dirMotorBikes);
     ordenarAleatoriamente(dirSunFlower);
@@ -253,7 +244,6 @@ int main(){
     vector<Imagen> trainWacth;
     vector<Imagen> testWacth;
     cargarImagenes(trainWacth, testWacth, dirWacth);
-
     
     //restarImagen(trainAnt.at(0).imagenGray,trainAnt.at(0).imagenGray);
     
