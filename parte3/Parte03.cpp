@@ -39,24 +39,15 @@ void eventoRaton(int e, int x, int y, int b, void *data){
 
 int main(){
     VideoCapture video("/dev/video0");
-    //VideoCapture video("Italia.mp4");
     if(video.isOpened()){
         namedWindow("Video", WINDOW_AUTOSIZE);
         while(3==3){
             video >> frame;
-
-            if(frame.empty()){
-                break;
-            }
-            //circle(frame, Point(50,50), 23, Scalar(0,0,255), 5);
+            if(frame.empty()){break;}
             resize(frame, frame, Size(), 1.2, 1.2);
             flip(frame, frame, 1);//Utilizado para invertir la imagen
             createTrackbar("Espacio", "Video", &thres, 3, eventoTrack, NULL);
             setMouseCallback("Cambio",eventoRaton,NULL);
-            /*if(nuevoEspacio.empty()){
-                nuevoEspacio = frame.clone();
-            }*/
-            
             if(thres==0){
                 cvtColor(frame, nuevoEspacio, COLOR_BGR2GRAY);
             }else if(thres==1){
@@ -66,19 +57,12 @@ int main(){
             }else if(thres==3){
                 cvtColor(frame, nuevoEspacio, COLOR_BGR2YCrCb);
             }
-
             imshow("Video", frame);
             imshow("Cambio", nuevoEspacio);
-
-            //anterior = nueva.clone();
-
-            if(waitKey(33)==27){
-                break;
-            }
+            if(waitKey(33)==27){break;}
         }
         video.release();
         destroyAllWindows();
     }
-
     return EXIT_SUCCESS;
 }
